@@ -1,0 +1,263 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	}
+.clear{
+	clear:both;
+	height:1px;
+	margin-bottom:-1px;
+}
+#body{
+	width:956px;
+	margin:0 auto 22px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+	width:334px;
+	height:67px;
+	float:left;
+}
+.header{
+	margin-top:17px;
+	}
+.panier{
+	float:right;
+	background:url(images/panier.gif) no-repeat;
+	width:177px;
+	height:54px;
+}
+.compte a{
+	margin-right:8px;
+}
+#body .prod{
+	margin-left: 12px;
+    margin-top: 16px;
+}
+.prod ,.compte .lien a{
+	font-size:11px;
+}
+.lien{
+	margin-left: 15px;
+    margin-top: 11px;
+}
+.red,.red2{
+	color:#cf0126;
+}
+.red2{
+	margin-left:29px;
+}
+.compte a:hover{
+	text-decoration:none;
+}
+.compte a,.compte,.panier,.panier .prod{
+	color:#41403f;
+	font:Arial, Helvetica, sans-serif;
+}
+.compte{
+	float:right;
+	background:url(images/compte.gif) no-repeat;
+	width:177px;
+	height:54px;
+	margin-right:10px;
+	display:inline;
+}
+.compte h2,.panier h2{
+	margin:6px 0 6px 28px;
+	font-size:11px;
+}
+.menu {
+	margin:11px 0 0;
+	background-color:#333333 ;
+	height:36px;
+	}
+.menu li{
+	list-style:none;
+	background:#333333 url(images/puce.png) right top no-repeat;
+	color:#f1f1f1;
+	padding:11px 14px 12px 5px;
+	font:11.1px Arial, Helvetica, sans-serif;
+	float:left;
+	height:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+#rech{
+	border:1px solid #b6b2ab;
+	color:#71787d;
+	width:250px;
+	height:20px;
+	padding-left:4px;
+	font-size:11px;
+	font-style:italic;
+	float: left;
+    margin: 2px 4px 0 0;
+}
+.form,.label{
+	float:left;
+}
+.label{
+	margin-right:12px;
+	font-size:12px;
+	margin-top:7px;
+	font-weight:bold;
+}
+.news span,.news a{
+	color:#FFFFFF;
+
+}
+.news span{
+	font-size:14px;
+	margin-left:54px;
+	margin-right:4px;
+}
+.news a{
+	font-size:12px;
+}
+.search{
+	background-color:#e1dcd3;
+	height:26px;
+}
+.ok{
+	background-image:url(images/ok.gif);
+	width:36px;
+	height:22px;
+	margin-left:-1px;
+}
+.news{
+	background:url("images/news.png") no-repeat scroll right top transparent;
+	float:left;
+	font-weight:bold;
+	height:25px;
+	width:451px;
+}
+.rech-img{
+	width:28px;
+	height:25px;
+	background-image:url(images/rech.gif);
+	float:left;
+}
+.avantage a{
+	background-image:url(images/Garantie.gif);
+	width:403px;
+	height:55px;
+	float:left;
+	margin-right:3px;
+	display:inline;
+}
+.avantage a:hover{
+	background-image:url(images/Garantie-hover.gif)
+}
+.chemin, .chemin a{
+	font-size:11px;
+	color:#71787d;
+	padding:9px 0;
+}
+.chemin a:hover{
+	text-decoration:none;
+}
+.commande a{
+	background-image:url(images/cammande.gif);
+	width:227px;
+	height:55px;
+	float:left;
+	margin-right:3px;
+	display:inline;
+}
+.commande a:hover{
+	background-image:url(images/commande-hover.gif);
+}
+.service a{
+	background-image:url(images/service.gif);
+	width:314px;
+	height:53px;
+	float:left;
+}
+.service a:hover{
+	background-image:url(images/service-hover.gif);
+}
+.condition{
+	float:left;
+	color:#333333;
+	margin-top:7px;
+	display:inline;
+	font:17px bold Arial, Helvetica, sans-serif;
+	height:30px;
+	width:956px;
+	background-color:#c6c6c6;
+}
+.condition H1{
+	background-color:#FFFFFF;
+	font-size:17.8px;
+	font-weight:normal;
+	height:30px;
+	margin-right:4px;
+	padding-right:16px;
+	width:553px;
+}
+.parag p,.parag h3{
+	font-size:12px;
+	margin:0 0 19px 7px;
+}
+.parag h3{
+	font-weight:bold;
+}
+.title{
+	color:#FFFFFF;
+	background-color:#333333;
+	height:17px;
+	border-top:1px solid #999999;
+	border-bottom:1px solid #999999;
+	font-size:12px;
+	margin:0 auto;
+	margin-top:13px;
+	padding:3px 0 0 8px;
+	width:730px;
+}
+
+.parag{
+	width:735px;
+	margin:0 auto;
+	border:1px solid #cdcdcd;
+}
+#pied{
+	background-color:#f3f0ea;
+	height:210px;
+	padding-top:36px;
+}
+.menu-pied{
+	float:left;
+	width:239px;
+	height:124px;
+	font-size:11px;
+	margin-top:-15px;
+}
+.menu-pied h4{
+	font-weight:bold;
+	margin-left:45px;
+	text-decoration:none;
+	font-size:11px;
+	color:#262626;
+}
+.menu-pied a{
+	color:#70777C;
+	display:block;
+	margin-left:45px;
+	text-decoration:none;
+}
+.menu-pied a:hover{
+	text-decoration:underline;
+}
+.adresse{
+	font-size:12px;
+	margin:18px auto 24px;
+	width:735px;
+	padding-left:5px;
+}
+.copy{
+	float:left;
+	font-size:11px;
+	color:#5e656a;
+	margin-left:132px;
+}
